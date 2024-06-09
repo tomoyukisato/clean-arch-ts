@@ -1,6 +1,6 @@
 import { Order } from "./order";
 
-class Charge {
+class Payment {
     id!: String;
     orderId!: Order["id"];
     amount!: number;
